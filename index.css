@@ -1,0 +1,36 @@
+.container {
+  width: 80%;
+  padding: 20px 10px;
+  margin: 200px auto 0;
+  border: solid 3px #c57f7f;
+  background-color: #ffecec;
+}
+.question-contents {
+  text-align: center;
+  font-size: 23px;
+  margin: 40px auto 60px;
+}
+
+.answer-contents {
+  text-align: center;
+}
+
+.answer {
+  font-size: 18px;
+  width: 40%;
+  padding: 30px 0;
+  border-radius: 8px;
+  margin: 20px;
+  border: solid 2px #c57f7f;
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .question-contents {
+    font-size: 17px;
+  }
+  .answer {
+    width: 300px;
+    font-size: 17px;
+  }
+}
